@@ -1,0 +1,3 @@
+# Hi, I'm Luke Burns
+
+I'm a mathematical physicist and programmer. I am currently at the [Recurse Center](https://recurse.com/) working on a [p2p peer review platform for scientists](https://github.com/lukeburns/peer-review), learning category theory, and trying to [extend the Dirac equation to admit photons](https://github.com/lukeburns/dirac) in order to understand what the heck spin is. All of [my projects are on Github](https://github.com/lukeburns). This website contains writings about my projects and feelings.
