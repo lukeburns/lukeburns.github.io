@@ -1,5 +1,11 @@
 # Hi, I'm Luke Burns
 
-I'm a mathematical physicist and programmer. I am currently at the [Recurse Center](https://recurse.com/) working on a [p2p peer review platform for scientists](https://github.com/lukeburns/peer-review), learning [category theory](https://github.com/lukeburns/category-theory), and toying with an [extension to the Dirac equation](https://github.com/lukeburns/dirac). All of [my projects are on Github](https://github.com/lukeburns). I plan to use this website to write about my projects and feelings.
+I program a bunch and study physics a bunch. I recently attended the [Recurse Center](https://recurse.com), where I built a [p2p event emitter](https://github.com/lukeburns/peer-events), toyed with a model for [open peer review](https://github.com/lukeburns/peer-review), studied category theory, and worked on [an extension of the Dirac equation](https://github.com/lukeburns/dirac). All of my work is on [Github](https://github.com/lukeburns). Here is some of my work:
 
-Not much here yet! Come back soon.
+[An extension of the Dirac equation](https://github.com/lukeburns/dirac) ([pdf](https://github.com/lukeburns/dirac/blob/master/dirac.pdf))
+
+[Gauging duality symmetry of the generalized Maxwell equations](https://github.com/lukeburns/gauge-duality) ([pdf](https://github.com/lukeburns/gauge-duality/blob/master/maxwell.pdf))
+
+[An introduction to geometric algebra](https://github.com/lukeburns/geometric-algebra) ([pdf](https://github.com/lukeburns/geometric-algebra/blob/master/intro.pdf))
+
+[Is it possible to construct spinor valued gauge fields?](https://github.com/lukeburns/spinor-gauge-fields) ([pdf](https://github.com/lukeburns/spinor-gauge-fields/blob/master/fermions.pdf))
