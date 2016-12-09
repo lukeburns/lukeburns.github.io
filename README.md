@@ -1,6 +1,8 @@
 # Hi, I'm Luke Burns
 
-I program a bunch and study physics a bunch. I recently attended the [Recurse Center](https://recurse.com), where I built a [p2p event emitter](https://github.com/lukeburns/peer-events), toyed with a model for [open peer review](https://github.com/lukeburns/peer-review), studied some category theory, and worked on [an extension of the Dirac equation](https://github.com/lukeburns/dirac). All of my work is on [Github](https://github.com/lukeburns). Here are some of the things I've been thinking about recently:
+I program a bunch and study physics a bunch. I recently attended the [Recurse Center](https://recurse.com), where I built a [p2p event emitter](https://github.com/lukeburns/peer-events), toyed with a model for [open peer review](https://github.com/lukeburns/peer-review), studied some category theory, and worked on [an extension of the Dirac equation](https://github.com/lukeburns/dirac). All of my work is on [Github](https://github.com/lukeburns). 
+
+Below is a list of projects I've been working on recently. Each project has a Github repository with a full version history, TeX source, open issues, and a most recent pdf build. You're welcome to open an issue, or fork and submit a pull request with improvements.
 
 [Maxwell's equations from a bounded current](https://github.com/lukeburns/maxwells-equations) ([pdf](https://github.com/lukeburns/maxwells-equations/blob/master/maxwell.pdf)) It is shown that Maxwell's equations follow directly from the ansatz "an electric current density is a conserved, integrable, and bounded timelike vector field in spacetime."
 
