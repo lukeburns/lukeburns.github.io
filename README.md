@@ -6,6 +6,8 @@ I program a bunch and study physics a bunch. I recently attended the [Recurse Ce
 
 [Gauging duality symmetry of the generalized Maxwell equations](https://github.com/lukeburns/gauge-duality) ([pdf](https://github.com/lukeburns/gauge-duality/blob/master/maxwell.pdf))
 
+[Maxwell's equations from a bounded current](https://github.com/lukeburns/maxwells-equations) ([pdf](https://github.com/lukeburns/maxwells-equations/blob/master/maxwell.pdf))
+
 [An introduction to geometric algebra](https://github.com/lukeburns/geometric-algebra) ([pdf](https://github.com/lukeburns/geometric-algebra/blob/master/intro.pdf))
 
 [Is it possible to construct spinor valued gauge fields?](https://github.com/lukeburns/spinor-gauge-fields) ([pdf](https://github.com/lukeburns/spinor-gauge-fields/blob/master/fermions.pdf))
