@@ -2,7 +2,7 @@
 
 I program a bunch and study physics a bunch. I recently attended the [Recurse Center](https://recurse.com), where I built a [p2p event emitter](https://github.com/lukeburns/peer-events), toyed with a model for [open peer review](https://github.com/lukeburns/peer-review), studied some category theory, and worked on [an extension of the Dirac equation](https://github.com/lukeburns/dirac). All of my work is on [Github](https://github.com/lukeburns). 
 
-Below is a list of projects I've been working on recently. Each project has a Github repository with a full version history, TeX source, open issues, and a most recent pdf build. You're welcome to open an issue, or fork and submit a pull request with improvements.
+Below is a list of projects I am currently actively working on. Each project has a Github repository with a full version history, TeX source, open issues, and a most recent pdf build. You're welcome to open an issue, or fork and submit a pull request with improvements.
 
 [Gauging duality symmetry of the generalized Maxwell equations](https://github.com/lukeburns/gauge-duality) ([pdf](https://github.com/lukeburns/gauge-duality/blob/master/gauge-duality.pdf)) It is shown that duality symmetry of the generalized Maxwell's equations (with magentic sources) can be gauged. Because the newly introduced gauge field is indistinguishable from an electromagnetic gauge field, it is suggested that the coupling could describe non-linear interactions between electromagnetic fields.
 
