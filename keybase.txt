@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/lukeburns
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lukeburns.com
+  * I am lukeburns (https://keybase.io/lukeburns) on keybase.
+  * I have a public key with fingerprint 7F13 7C6A AB3A 32CF FBB4  DA9A 60E4 151E 7104 6C21
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010114931f4069006a4efef2740a989bd481fe2b37d6ae4bc6c395d17dee3f392a280a",
+      "fingerprint": "7f137c6aab3a32cffbb4da9a60e4151e71046c21",
+      "host": "keybase.io",
+      "key_id": "60e4151e71046c21",
+      "kid": "010114931f4069006a4efef2740a989bd481fe2b37d6ae4bc6c395d17dee3f392a280a",
+      "uid": "fe5d2f942f9a77a6c16ecda67bdc4e19",
+      "username": "lukeburns"
+    },
+    "service": {
+      "hostname": "lukeburns.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1560801755,
+  "expire_in": 157680000,
+  "prev": "defc546b4b92b642ea43429b75cc4838d52e40b4a4fd68fcaf8b8e613ccab71e",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMInAnicrZJbSBZBFMc/80aKFWUYEkGLgaXYzu7s7K6hqKGYIBVYhpQfM7Mzuqnf
+fn23MovMIsoiNJ+6C10INOkhQuhqlN2lwECLKLKozIdCfVCxmpV6iR4bGIY58/v/
+55zDuZcU7UmI+oIKUEtB7NOoJz0nwp4t8d9fN0jEseql7Aaphs0crNZiwZC3xrak
+bEkGMgDQVAGHMjJlGWHIOOOKDmVsGiaxoAE4U4iqWwgzSCiiqqlZQLcYU7lqKlgx
+ZCxlStz2VbGAP2D7QsJW50DVKcKYqFhVKOeEQAubGMkMAg0wHcgQUQUIYbUTdBUi
+OYKDLMt2RExcvDPp/YP/z3mHZ+w40yyFm1BsrOsYUYAYtTDSiUUhA6YLBlnAh+uY
+oGvDNYyEA76gtDtTEuGITZnbWbeUv5Es6tQJtT/ghBzq1Iqn6lDIH8x2paF6v8tu
+Z8T728VLbJ8lOikUERYI2o5PygaCpCHbtQUakg0Z6JqWKbEdfjvAvLZLaDoyZLHc
+f1hEWFqMUw0iAompEAQVhqEKFZPoGqXQUA1LUxiUCcSQW8jgFHODGAwBlVJMdMAk
+t65tPkd4I5EnrhKeQbvKh0PhAJN2372zOcYTleCJi53ljpgnYfa8P4O3NDd+el5X
+UXx32oNTrX2Jyf6RxTWobOH70Q1l44dKzpc/upK/P6+hu/NCadrijas79i+/Ud87
+Xt4S/ehcd0Xi66ObUi9EV96sLlxXn9YzOj8Hn5lz4tOry+MpA1klayuu5k4c5Y9v
+aTExt/suNbaOJfWzN3ObV654Mt1sd+VN9eYNN+e/GDmX0X9EPzj7x6utZ+fsXJXa
+tEB52F+UkFKcTmedfNZ2bEnKxeGiqYm9aDkfWFSSFClbM6SnF7ScKS5sXLOs41rv
+rpx2MlhZmZPZPrZwcsXkt/Vxn6PzO9fGnn73tv1wcoPdtyf1ZdvXeBDpyug40HX+
++f19TddLV/Z9+EIbbwwetz8O7fj5C4VPQWE=
+=0MgM
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lukeburns
+
+==================================================================
