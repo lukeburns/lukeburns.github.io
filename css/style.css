@@ -13,6 +13,10 @@ body {
     margin-left: auto;
 }
 
+footer {
+  padding: 20px 45px;
+}
+
 body .markdown-body {
     padding: 45px;
     border: 1px solid #ddd;
