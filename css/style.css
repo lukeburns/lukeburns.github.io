@@ -17,6 +17,10 @@ footer {
   padding: 20px 45px;
 }
 
+footer .rc-scout {
+  float: right;
+}
+
 body .markdown-body {
     padding: 45px;
     border: 1px solid #ddd;
