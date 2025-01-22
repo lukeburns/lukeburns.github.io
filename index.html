@@ -1,1 +1,85 @@
-<!doctype html> <head> <meta charset=utf-8> <meta content="width=device-width,initial-scale=1" name=viewport> <meta content=#333333 name=theme-color> <base href=/ > <link href=global.css rel=stylesheet> <link href=favicon.png rel=icon type=image/png> <style>main.svelte-n1pujn{position:relative;max-width:53em;background-color:#fff;padding:2em;margin:0 auto;box-sizing:border-box}article.svelte-18nkq9s{margin:3em 0 4em}ul.svelte-18nkq9s{margin:0 0 1em 0;line-height:1.5}footer.svelte-18nkq9s{display:flex;justify-content:space-between}</style> <noscript id=sapper-head-start></noscript><title>Luke Burns</title><noscript id=sapper-head-end></noscript> <link href=/client/453eec1ac1cffd6809c2/main.js rel=preload as=script><link href=/client/453eec1ac1cffd6809c2/index.0.js rel=preload as=script></head> <body> <div id=sapper> <main class=svelte-n1pujn> <header><h1>Hi, I'm Luke</h1> <p>I'm a graduate student doing physics research in areas like relativistic field theory and quantum mechanics. It is <i>so dang fun</i>! You can find my research on <a href=https://github.com/lukeburns>Github</a>, including publications and works in progress. If you see something I missed or notice something interesting, I invite you to create a new issue or submit a pull request!</header> <article class=svelte-18nkq9s><h2>Recent publications</h2> <ul class=svelte-18nkq9s><li><a href=publications/acoustic-versus-electromagnetic-field-theory rel=prefetch>Acoustic versus electromagnetic field theory, scalar, vector, spinor representations and the emergence of acoustic spin</a> <p><div class=csl-bib-body> <div class=csl-entry data-csl-entry-id=burnsAcousticElectromagneticField2020>Burns, L., Bliokh, K. Y., Nori, F., & Dressel, J. (2020). Acoustic versus electromagnetic field theory: scalar, vector, spinor representations and the emergence of acoustic spin. <i>New Journal of Physics</i>. https://doi.org/10.1088/1367-2630/ab7f91</div> </div><p></p> <li><a href=publications/maxwells-equations-universal-locally-conserved rel=prefetch>Maxwell's equations are universal for locally conserved quantities</a> <p><div class=csl-bib-body> <div class=csl-entry data-csl-entry-id=burnsMaxwellEquationsAre2019>Burns, L. (2019). Maxwell’s equations are universal for locally conserved quantities. <i>Advances in Applied Clifford Algebras</i>, <i>29</i>(4). https://doi.org/10.1007/s00006-019-0979-7</div> </div><p></p> </ul></article> <footer class=svelte-18nkq9s><a href=https://webring.recurse.com><img alt="Recurse Center Logo" src=https://webring.recurse.com/icon.png style=width:25px></a> <script src="https://www.recurse-scout.com/loader.js?t=1476e752aaa22c2791e69a1578f9639e" async defer></script> </footer> </main></div> <script>__SAPPER__={baseUrl:"",preloaded:[void 0,{posts:[{title:"Acoustic versus electromagnetic field theory: scalar, vector, spinor representations and the emergence of acoustic spin",slug:"acoustic-versus-electromagnetic-field-theory",citation:"\u003Cdiv class=\"csl-bib-body\"\u003E\n  \u003Cdiv data-csl-entry-id=\"burnsAcousticElectromagneticField2020\" class=\"csl-entry\"\u003EBurns, L., Bliokh, K. Y., Nori, F., &#38; Dressel, J. (2020). Acoustic versus electromagnetic field theory: scalar, vector, spinor representations and the emergence of acoustic spin. \u003Ci\u003ENew Journal of Physics\u003C\u002Fi\u003E. https:\u002F\u002Fdoi.org\u002F10.1088\u002F1367-2630\u002Fab7f91\u003C\u002Fdiv\u003E\n\u003C\u002Fdiv\u003E"},{title:"Maxwell's equations are universal for locally conserved quantities",slug:"maxwells-equations-universal-locally-conserved",citation:"\u003Cdiv class=\"csl-bib-body\"\u003E\n  \u003Cdiv data-csl-entry-id=\"burnsMaxwellEquationsAre2019\" class=\"csl-entry\"\u003EBurns, L. (2019). Maxwell’s equations are universal for locally conserved quantities. \u003Ci\u003EAdvances in Applied Clifford Algebras\u003C\u002Fi\u003E, \u003Ci\u003E29\u003C\u002Fi\u003E(4). https:\u002F\u002Fdoi.org\u002F10.1007\u002Fs00006-019-0979-7\u003C\u002Fdiv\u003E\n\u003C\u002Fdiv\u003E"}]}]};if('serviceWorker' in navigator)navigator.serviceWorker.register('/service-worker.js');</script><script src=/client/453eec1ac1cffd6809c2/main.js></script> 
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta content="#333333" name="theme-color"> 
+    <base href=/ > 
+    <link href="global.css" rel="stylesheet"> 
+    <link href="favicon.png" rel="icon" type="image/png"> 
+    <style>
+      main{
+        position:relative;
+        max-width:53em;
+        background-color:#fff;
+        padding:2em;
+        margin:0 auto;
+        box-sizing:border-box;
+      }
+
+      article{
+        margin:3em 0 4em;
+      }
+      ul{
+        margin:0 0 1em 0;
+        line-height:1.5
+      }
+      footer{
+        display:flex;
+        justify-content:space-between
+      }
+    </style>
+    <title>Luke Burns | Hello!</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Hello world, I'm Luke</h1> 
+        <p>I'm a graduate student studying quantum information and relativistic field theories. It is <i>so dang fun</i>! You can also find me on <a href="https://github.com/lukeburns">Github</a> — if you see something I missed or notice something interesting, I invite you to create a new issue or submit a pull request!</p>
+      </header>
+
+      <article id="publications">
+        <h2>Publications</h2>
+      </article>
+
+      <script>
+        const orcidID = '0000-0003-1223-4210';
+
+        async function fetchPublications() {
+          const response = await fetch(`https://pub.orcid.org/v3.0/${orcidID}/works`, {
+            headers: {
+              'Accept': 'application/json'
+            }
+          });
+          const data = await response.json();
+          displayPublications(data.group);
+        }
+
+        fetchPublications();
+
+        function displayPublications(works) {
+          const publications = document.getElementById('publications');
+          works.forEach(work => {
+            const summary = work['work-summary'][0]
+            const title = summary['title']['title']['value'];
+            const journal = summary['journal-title']['value'];
+            const url = summary['url']['value'];
+            const year = summary['publication-date']['year']['value'];
+            const publication = document.createElement('div');
+            publication.innerHTML = `
+              <h3><a href="${url}">${title}</a></h3>
+              <h4>${year} - ${journal}</h4>
+            `.trim();
+
+            publications.appendChild(publication);
+          });
+        }
+      </script>
+
+      <footer class=svelte-18nkq9s>
+        <a href=https://webring.recurse.com>
+          <img alt="Recurse Center Logo" src=https://webring.recurse.com/icon.png style=width:25px></a>
+          <script src="https://www.recurse-scout.com/loader.js?t=1476e752aaa22c2791e69a1578f9639e" async defer></script> 
+      </footer> 
+    </main>
+  </body>
+</html>
