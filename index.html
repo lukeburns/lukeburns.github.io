@@ -61,7 +61,7 @@
           works.forEach(work => {
             const summary = work['work-summary'][0]
             const title = summary['title']['title']['value'];
-            const journal = summary['journal-title']['value'];
+            const journal = summary['journal-title'] ? summary['journal-title']['value'] : 'Under Review';
             const url = summary['url']['value'];
             const year = summary['publication-date']['year']['value'];
             const publication = document.createElement('div');
